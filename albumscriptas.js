@@ -20,7 +20,7 @@ fetch(`https://jsonplaceholder.typicode.com/albums/${albumId}/photos?_limit=10`)
   btn.classList.add("btn")
   
   
-  btn.innerHTML = `<a href="/index.html">Back</a>`;
+  btn.innerHTML = `<a href="index.html">Back</a>`;
   
   div.append(btn);
   document.body.append(div);
