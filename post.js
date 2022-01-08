@@ -21,7 +21,7 @@ fetch(`https://jsonplaceholder.typicode.com/posts/${postId}`)
   const btn = document.createElement('button');
   btn.classList.add("btn")
   
-  btn.innerHTML = `<a href="/index.html">Back</a>`;
+  btn.innerHTML = `<a href="/">Back</a>`;
   
   div.append(btn);
   document.body.append(div);
